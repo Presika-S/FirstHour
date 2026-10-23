@@ -29,6 +29,7 @@ Set `PORT` to change the port. Behind a public hostname, you may need to allow t
 ## Devpost text (draft)
 **FirstHour** gives Alexa+ a calm, step-by-step plan for the first 60 minutes after a scam. Say what happened ("I told someone my OTP", "I installed AnyDesk"); the server triages it, reads one action at a time, runs a first-hour countdown, records evidence (amount, time, transaction ID, beneficiary) and generates a call script for the bank or India's 1930 helpline. Why voice: victims are stressed and on the phone. Why deterministic: no model in the tool path, so answers are exact, fast and testable. Built with: Python, MCP SDK (Streamable HTTP, protocol 2025-11-25), Starlette. Tracks: Alexa+. Product feedback: see friction log.
 
-## Demo video (2:30)
-0:00 Cold open: "I just gave a caller my OTP." Clock shows 60:00. 0:20 Triage and first step spoken. 0:50 "Done" advances; the checklist updates. 1:10 Record amount and transaction ID by voice. 1:30 "What do I say?" returns the filled script. 1:50 Switch to the US playbook. 2:05 Show the tool trace with real millisecond timings and the smoke test passing. 2:20 Close on what is next: OAuth, MCP Apps visual, real Alexa+ onboarding.
-https://youtu.be/oQRbbxEFUDk?si=Z8Diu6GrXNFYQthR
+## Demo Video
+Watch the FirstHour demonstration: https://youtu.be/oQRbbxEFUDk
+The demo shows scenario selection, guided scam-response actions, the countdown timer, checklist progress tracking, and live MCP tool activity with response times.
+**Transparency:** The MCP server and its tools are real. The web interface simulates an Alexa+ experience using a keyword matcher; it is not officially connected to Alexa+.
