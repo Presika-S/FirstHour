@@ -31,3 +31,4 @@ Set `PORT` to change the port. Behind a public hostname, you may need to allow t
 
 ## Demo video (2:30)
 0:00 Cold open: "I just gave a caller my OTP." Clock shows 60:00. 0:20 Triage and first step spoken. 0:50 "Done" advances; the checklist updates. 1:10 Record amount and transaction ID by voice. 1:30 "What do I say?" returns the filled script. 1:50 Switch to the US playbook. 2:05 Show the tool trace with real millisecond timings and the smoke test passing. 2:20 Close on what is next: OAuth, MCP Apps visual, real Alexa+ onboarding.
+https://youtu.be/oQRbbxEFUDk?si=Z8Diu6GrXNFYQthR
